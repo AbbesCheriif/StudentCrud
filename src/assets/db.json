@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "student1",
+      "email": "student1@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "student2",
+      "email": "student2@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "student3",
+      "email": "student3@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "student4",
+      "email": "student4@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "student5",
+      "email": "student5@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "student6",
+      "email": "student6@gmail.com"
+    },
+    {
+      "id": "7",
+      "name": "student7",
+      "email": "student7@gmail.com"
+    },
+    {
+      "name": "student8",
+      "email": "student8@gmail.com",
+      "id": "8"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<h3>Edit Student</h3>
+<div class="alert alert-success alert-dismissible fade show" role="alert" *ngIf="message">
+    <strong>success!</strong> Student added successfully
+    <button (click)="removeMessage()" type="button" data-bs-dismiss="alert" aria-label="Close">X</button>
+</div>
+<form [formGroup]="editStudent" (ngSubmit)="updateData()">
+    <div class="mb-3">
+      <label class="form-label">name</label>
+      <input type="text" class="form-control" placeholder="enter your name" formControlName="name">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email address</label>
+      <input type="email" class="form-control" placeholder="enter your email" formControlName="email">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
